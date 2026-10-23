@@ -69,7 +69,7 @@
     "tests/test_subscriptions.py": "1b5f647795c2d8a83b98a65af15d505fb50af1e79d98c24e55a388e3e6852582",
     "tests/test_traffic.py": "11eb6c9b7ac4867c088a7ac29ede39f86623e15b52d3cca0629e42f7a092169f",
     "tools/build_installer.py": "9b5cca105414ca333ab162857056ec41cdf68fc5055486e450aef65f4e39d71d",
-    "tools/build_release.py": "55d944c1b8f71d3a1943dc705d6886cf22f7fcb426bc2ea6602dfd5f597d5f8b",
+    "tools/build_release.py": "c9dbadbf74a1d92346f50f6d111d0d8e4ef32c4032c55aca9953457dc8938f12",
     "vendor/LICENSE": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5",
     "vendor/geoip.dat": "744c97b74c52bae2ac8664fef6ac481d7765cb8432a0df54f0368a88b9b4a354",
     "vendor/geosite.dat": "adf92de0cfc70e458b399f04c5f912bf42d115ed7e37281b30e2f1c68605e4e9",
