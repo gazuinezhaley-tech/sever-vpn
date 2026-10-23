@@ -1,0 +1,17 @@
+[Unit]
+Description=Sever subscription backend
+After=network.target
+[Service]
+User=sever-sub
+Group=sever-sub
+ExecStart=/usr/bin/python3 /opt/sever/src/subserver.py
+Restart=on-failure
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+PrivateDevices=true
+RestrictAddressFamilies=AF_INET AF_UNIX
+CapabilityBoundingSet=
+[Install]
+WantedBy=multi-user.target

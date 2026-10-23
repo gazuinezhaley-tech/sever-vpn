@@ -1,0 +1,11 @@
+#!/bin/sh
+if [ "$#" -eq 0 ]; then
+ exec python3 /opt/sever/src/manage.py menu
+fi
+case "$1" in
+  connect|qr|guide) exec python3 /opt/sever/src/connect.py "$@" ;;
+ restore) shift; exec python3 /opt/sever/src/recovery.py "$@" ;;
+ apply|link) exec python3 /opt/sever/src/runtime.py "$@" ;;
+ menu|sync|expire|export|enforce|quota|usage|subscription) exec python3 /opt/sever/src/manage.py "$@" ;;
+ *) exec python3 /opt/sever/src/sever.py "$@" ;;
+esac

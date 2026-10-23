@@ -1,0 +1,6 @@
+config/
+backups/
+work/
+dist/
+__pycache__/
+.lock

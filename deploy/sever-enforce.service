@@ -1,0 +1,7 @@
+[Unit]
+Description=Apply Sever user expiry policy
+After=sever-xray.service
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/sever enforce
+TimeoutStartSec=45
